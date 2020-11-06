@@ -10,3 +10,12 @@ This project has been realised by:
     - Syrine EL AOUD
     - Saif Eddine BOUKHDHIR
     - Houssem Eddine BETTAIBI
+    
+**Ontology :**
+
+ ![Ontology](https://github.com/HoussemEddineBETTAIBI/Ontology_Project_IA301/blob/main/ontology.png)
+ 
+**Ontology Metrics :**
+    
+ ![Ontology Metrics](https://github.com/HoussemEddineBETTAIBI/Ontology_Project_IA301/blob/main/metrics.png)
+
