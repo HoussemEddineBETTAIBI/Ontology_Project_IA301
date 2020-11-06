@@ -1,0 +1,2338 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/syrine/ontologies/2020/10/sustainable-garden"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/syrine/ontologies/2020/10/sustainable-garden">
+    <Prefix name="" IRI="http://www.semanticweb.org/syrine/ontologies/2020/10/sustainable-garden"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AcidicSoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AphidParasite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AphidPredator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aphids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asparagus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BeneficialInsect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BraconidWasp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broccoli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bumblebee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabbage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CabbageMaggot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caterpillar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cauliflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Celery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColoradoPotatoBeetle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoolSeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cucumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutworm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomesticAnimals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earthworm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eggplant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequentlyWateredSoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garlic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenLacewing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LadyBeetle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lettuce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Melon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mineral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoistSoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalFertilizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrayingMantis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RichSoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoldierBeetle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spinach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syrphidae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tomato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WarmSeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WellDrainedSoil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attacks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#growsInSeason"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#improvesSoilQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAttackedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEssentialFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncompatibleWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#likes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pollinates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresFertilizer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMineral"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresSoil"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Animal_Species_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Mineral_Source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PlantingTemperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Product_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Temperature_Avg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Variety_Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant_Group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Automn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bee_group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carrot1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caterpillar_group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garlic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garlic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grape1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grape2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organic_Fertilizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sheep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soil_Sample1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soil_Sample2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soil_Sample3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soil_Sample4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoldierBeetle_group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tomato1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tomato2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Winter"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcidicSoil"/>
+        <Class IRI="#Soil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ant"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Aphids"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AphidParasite"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AphidParasite"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Aphids"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AphidPredator"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AphidPredator"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Aphids"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aphids"/>
+        <Class IRI="#Pest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asparagus"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asparagus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Onion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asparagus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asparagus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresMineral"/>
+            <Class IRI="#Nitrogen"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basil"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Cucumber"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#MoistSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bean"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bean"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Cauliflower"/>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Leek"/>
+                <Class IRI="#Onion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bean"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Spinach"/>
+                <Class IRI="#Squash"/>
+                <Class IRI="#Strawberry"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bean"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#FrequentlyWateredSoil"/>
+                <Class IRI="#RichSoil"/>
+                <Class IRI="#WellDrainedSoil"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bee"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bee"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#pollinates"/>
+            <Class IRI="#Crop"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beet"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beet"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#CoolSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beet"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Radish"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beet"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#MoistSoil"/>
+                <Class IRI="#RichSoil"/>
+                <Class IRI="#WellDrainedSoil"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeneficialInsect"/>
+        <Class IRI="#Insect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BraconidWasp"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BraconidWasp"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Aphids"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BraconidWasp"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Caterpillar"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Radish"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#WellDrainedSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bumblebee"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bumblebee"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#pollinates"/>
+            <Class IRI="#Crop"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabbage"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabbage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isAttackedBy"/>
+            <Class IRI="#Pest"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabbage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Strawberry"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabbage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Celery"/>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Mint"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Spinach"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabbage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#MoistSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CabbageMaggot"/>
+        <Class IRI="#Pest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrot"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Celery"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Leek"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#WellDrainedSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caterpillar"/>
+        <Class IRI="#Pest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cauliflower"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cauliflower"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cauliflower"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Strawberry"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cauliflower"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cauliflower"/>
+                <Class IRI="#Onion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Celery"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Celery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Celery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Carrot"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Celery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Celery"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Celery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#MoistSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColoradoPotatoBeetle"/>
+        <Class IRI="#Pest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoolSeason"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoolSeason"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#PlantingTemperature"/>
+            <DataIntersectionOf>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataIntersectionOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Tomato"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Melon"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Squash"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresFertilizer"/>
+            <Class IRI="#NaturalFertilizer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#FrequentlyWateredSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cucumber"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cucumber"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cucumber"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Potato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cucumber"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Radish"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutworm"/>
+        <Class IRI="#Pest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earthworm"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earthworm"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#improvesSoilQuality"/>
+            <Class IRI="#Soil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eggplant"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eggplant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eggplant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Tomato"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eggplant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Pepper"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Spinach"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentlyWateredSoil"/>
+        <Class IRI="#Soil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garlic"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garlic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garlic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Pea"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garlic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grape"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grape"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grape"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Radish"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grape"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Pea"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grape"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectUnionOf>
+                <Class IRI="#MoistSoil"/>
+                <Class IRI="#WellDrainedSoil"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenLacewing"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenLacewing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Pest"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LadyBeetle"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LadyBeetle"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Aphids"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leek"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leek"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leek"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Bean"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leek"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Leek"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leek"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectUnionOf>
+                <Class IRI="#FrequentlyWateredSoil"/>
+                <Class IRI="#RichSoil"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lettuce"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lettuce"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lettuce"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Grape"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lettuce"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Radish"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lettuce"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#WellDrainedSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Potato"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Melon"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectUnionOf>
+                <Class IRI="#MoistSoil"/>
+                <Class IRI="#WellDrainedSoil"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Mint"/>
+                <Class IRI="#Squash"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoistSoil"/>
+        <Class IRI="#Soil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nitrogen"/>
+        <Class IRI="#Mineral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nitrogen"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isEssentialFor"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Cauliflower"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Pepper"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#CoolSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Pea"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Squash"/>
+                <Class IRI="#Strawberry"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresFertilizer"/>
+            <Class IRI="#NaturalFertilizer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#MoistSoil"/>
+                <Class IRI="#RichSoil"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pea"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pea"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#CoolSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pea"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Onion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pea"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Spinach"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pea"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#WellDrainedSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepper"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepper"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#CoolSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepper"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Pepper"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepper"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectUnionOf>
+                <Class IRI="#Pepper"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#AcidicSoil"/>
+                    <Class IRI="#FrequentlyWateredSoil"/>
+                    <Class IRI="#RichSoil"/>
+                    <Class IRI="#WellDrainedSoil"/>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pest"/>
+        <Class IRI="#Insect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphorus"/>
+        <Class IRI="#Mineral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphorus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isEssentialFor"/>
+            <ObjectUnionOf>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Potato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potassium"/>
+        <Class IRI="#Mineral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potassium"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isEssentialFor"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Potato"/>
+                <Class IRI="#Spinach"/>
+                <Class IRI="#Squash"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potato"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Melon"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Spinach"/>
+                <Class IRI="#Squash"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Pepper"/>
+                <Class IRI="#Potato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AcidicSoil"/>
+                <Class IRI="#FrequentlyWateredSoil"/>
+                <Class IRI="#RichSoil"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrayingMantis"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrayingMantis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Insect"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radish"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Broccoli"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Cauliflower"/>
+                <Class IRI="#Grape"/>
+                <Class IRI="#Potato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Beet"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Cucumber"/>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Lettuce"/>
+                <Class IRI="#Melon"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Spinach"/>
+                <Class IRI="#Squash"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#AcidicSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RichSoil"/>
+        <Class IRI="#Soil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scale"/>
+        <Class IRI="#Pest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoldierBeetle"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoldierBeetle"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <ObjectUnionOf>
+                <Class IRI="#Aphids"/>
+                <Class IRI="#Caterpillar"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spinach"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spinach"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#CoolSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spinach"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Potato"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spinach"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Pea"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Spinach"/>
+                <Class IRI="#Strawberry"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spinach"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresFertilizer"/>
+            <Class IRI="#NaturalFertilizer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <Class IRI="#Potato"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Melon"/>
+                <Class IRI="#Mint"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Radish"/>
+                <Class IRI="#Squash"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#MoistSoil"/>
+                <Class IRI="#WellDrainedSoil"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Cauliflower"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Bean"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Spinach"/>
+                <Class IRI="#Strawberry"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#RichSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syrphidae"/>
+        <Class IRI="#BeneficialInsect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syrphidae"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Aphids"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syrphidae"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#eats"/>
+            <Class IRI="#Caterpillar"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#growsInSeason"/>
+            <Class IRI="#WarmSeason"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isAttackedBy"/>
+            <Class IRI="#Pest"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncompatibleWith"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cabbage"/>
+                <Class IRI="#Cauliflower"/>
+                <Class IRI="#Corn"/>
+                <Class IRI="#Eggplant"/>
+                <Class IRI="#Potato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#likes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asparagus"/>
+                <Class IRI="#Basil"/>
+                <Class IRI="#Carrot"/>
+                <Class IRI="#Garlic"/>
+                <Class IRI="#Melon"/>
+                <Class IRI="#Onion"/>
+                <Class IRI="#Pepper"/>
+                <Class IRI="#Tomato"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requiresSoil"/>
+            <Class IRI="#FrequentlyWateredSoil"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable"/>
+        <Class IRI="#Crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WarmSeason"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WarmSeason"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#PlantingTemperature"/>
+            <DataIntersectionOf>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">16.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataIntersectionOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WellDrainedSoil"/>
+        <Class IRI="#Soil"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aphids"/>
+        <Class IRI="#CabbageMaggot"/>
+        <Class IRI="#Caterpillar"/>
+        <Class IRI="#ColoradoPotatoBeetle"/>
+        <Class IRI="#Cutworm"/>
+        <Class IRI="#Scale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Asparagus"/>
+        <Class IRI="#Basil"/>
+        <Class IRI="#Bean"/>
+        <Class IRI="#Beet"/>
+        <Class IRI="#Broccoli"/>
+        <Class IRI="#Cabbage"/>
+        <Class IRI="#Carrot"/>
+        <Class IRI="#Cauliflower"/>
+        <Class IRI="#Celery"/>
+        <Class IRI="#Corn"/>
+        <Class IRI="#Cucumber"/>
+        <Class IRI="#Eggplant"/>
+        <Class IRI="#Garlic"/>
+        <Class IRI="#Leek"/>
+        <Class IRI="#Lettuce"/>
+        <Class IRI="#Mint"/>
+        <Class IRI="#Onion"/>
+        <Class IRI="#Pea"/>
+        <Class IRI="#Pepper"/>
+        <Class IRI="#Potato"/>
+        <Class IRI="#Radish"/>
+        <Class IRI="#Spinach"/>
+        <Class IRI="#Squash"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BeneficialInsect"/>
+        <Class IRI="#Pest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CoolSeason"/>
+        <Class IRI="#WarmSeason"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Crop"/>
+        <Class IRI="#DomesticAnimals"/>
+        <Class IRI="#Insect"/>
+        <Class IRI="#Mineral"/>
+        <Class IRI="#NaturalFertilizer"/>
+        <Class IRI="#Season"/>
+        <Class IRI="#Soil"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Vegetable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nitrogen"/>
+        <Class IRI="#Phosphorus"/>
+        <Class IRI="#Potassium"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ant"/>
+        <NamedIndividual IRI="#Ant_Group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CoolSeason"/>
+        <NamedIndividual IRI="#Automn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bee"/>
+        <NamedIndividual IRI="#Bee_group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carrot"/>
+        <NamedIndividual IRI="#Carrot1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caterpillar"/>
+        <NamedIndividual IRI="#Caterpillar_group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Garlic"/>
+        <NamedIndividual IRI="#Garlic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Garlic"/>
+        <NamedIndividual IRI="#Garlic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Grape"/>
+        <NamedIndividual IRI="#Grape1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Grape"/>
+        <NamedIndividual IRI="#Grape2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalFertilizer"/>
+        <NamedIndividual IRI="#Organic_Fertilizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mineral"/>
+        <NamedIndividual IRI="#Product1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#Product1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mineral"/>
+        <NamedIndividual IRI="#Product2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#Product2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mineral"/>
+        <NamedIndividual IRI="#Product3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potassium"/>
+        <NamedIndividual IRI="#Product3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DomesticAnimals"/>
+        <NamedIndividual IRI="#Sheep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RichSoil"/>
+        <NamedIndividual IRI="#Soil_Sample1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WellDrainedSoil"/>
+        <NamedIndividual IRI="#Soil_Sample2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AcidicSoil"/>
+        <NamedIndividual IRI="#Soil_Sample3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FrequentlyWateredSoil"/>
+        <NamedIndividual IRI="#Soil_Sample4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoldierBeetle"/>
+        <NamedIndividual IRI="#SoldierBeetle_group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WarmSeason"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WarmSeason"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tomato"/>
+        <NamedIndividual IRI="#Tomato1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tomato"/>
+        <NamedIndividual IRI="#Tomato2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CoolSeason"/>
+        <NamedIndividual IRI="#Winter"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attacks"/>
+        <NamedIndividual IRI="#Caterpillar_group"/>
+        <NamedIndividual IRI="#Tomato1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attacks"/>
+        <NamedIndividual IRI="#Caterpillar_group"/>
+        <NamedIndividual IRI="#Tomato2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growsInSeason"/>
+        <NamedIndividual IRI="#Grape1"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncompatibleWith"/>
+        <NamedIndividual IRI="#Grape1"/>
+        <NamedIndividual IRI="#Garlic1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncompatibleWith"/>
+        <NamedIndividual IRI="#Grape1"/>
+        <NamedIndividual IRI="#Garlic2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growsInSeason"/>
+        <NamedIndividual IRI="#Grape2"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncompatibleWith"/>
+        <NamedIndividual IRI="#Grape2"/>
+        <NamedIndividual IRI="#Garlic1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <NamedIndividual IRI="#Organic_Fertilizer"/>
+        <NamedIndividual IRI="#Sheep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produces"/>
+        <NamedIndividual IRI="#Sheep"/>
+        <NamedIndividual IRI="#Organic_Fertilizer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eats"/>
+        <NamedIndividual IRI="#SoldierBeetle_group"/>
+        <NamedIndividual IRI="#Caterpillar_group"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growsInSeason"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Carrot1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Garlic1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Garlic2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Tomato2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresFertilizer"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Organic_Fertilizer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresMineral"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Product1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresSoil"/>
+        <NamedIndividual IRI="#Tomato1"/>
+        <NamedIndividual IRI="#Soil_Sample4"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <NamedIndividual IRI="#Automn"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">12.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Variety_Name"/>
+        <NamedIndividual IRI="#Garlic1"/>
+        <Literal>Arno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Variety_Name"/>
+        <NamedIndividual IRI="#Garlic2"/>
+        <Literal>Moulinor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Variety_Name"/>
+        <NamedIndividual IRI="#Grape1"/>
+        <Literal>Vitis_Vinifera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Variety_Name"/>
+        <NamedIndividual IRI="#Grape2"/>
+        <Literal>Vitis_Labrusca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mineral_Source"/>
+        <NamedIndividual IRI="#Product1"/>
+        <Literal>Rocks ionization</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Product_name"/>
+        <NamedIndividual IRI="#Product1"/>
+        <Literal>Nitrate of Ammonium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mineral_Source"/>
+        <NamedIndividual IRI="#Product2"/>
+        <Literal>Animal wastes and plants composits</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Product_name"/>
+        <NamedIndividual IRI="#Product2"/>
+        <Literal>Organic Phosphorus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mineral_Source"/>
+        <NamedIndividual IRI="#Product3"/>
+        <Literal>wood ashes and mined rock pouders</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Product_name"/>
+        <NamedIndividual IRI="#Product3"/>
+        <Literal>Organic Potassium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <NamedIndividual IRI="#Spring"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">17.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <NamedIndividual IRI="#Summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">23.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <NamedIndividual IRI="#Winter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.0</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#attacks"/>
+        <ObjectProperty IRI="#isAttackedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isEssentialFor"/>
+        <ObjectProperty IRI="#requiresMineral"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <ObjectProperty IRI="#produces"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#growsInSeason"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#attacks"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isIncompatibleWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#likes"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#attacks"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#eats"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#growsInSeason"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isAttackedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isEssentialFor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#pollinates"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#produces"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requiresFertilizer"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requiresMineral"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requiresSoil"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#attacks"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#eats"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#growsInSeason"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isAttackedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isEssentialFor"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#pollinates"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requiresFertilizer"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requiresMineral"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requiresSoil"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attacks"/>
+        <Class IRI="#Pest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eats"/>
+        <Class IRI="#BeneficialInsect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#growsInSeason"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#improvesSoilQuality"/>
+        <Class IRI="#BeneficialInsect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIncompatibleWith"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#likes"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pollinates"/>
+        <Class IRI="#BeneficialInsect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#DomesticAnimals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresFertilizer"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresMineral"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSoil"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attacks"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eats"/>
+        <Class IRI="#Pest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#growsInSeason"/>
+        <Class IRI="#Season"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#improvesSoilQuality"/>
+        <Class IRI="#Soil"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pollinates"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#NaturalFertilizer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresFertilizer"/>
+        <Class IRI="#NaturalFertilizer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresMineral"/>
+        <Class IRI="#Mineral"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresSoil"/>
+        <Class IRI="#Soil"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Animal_Species_Name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Mineral_Source"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PlantingTemperature"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Variety_Name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#PlantingTemperature"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Animal_Species_Name"/>
+        <Class IRI="#DomesticAnimals"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Mineral_Source"/>
+        <Class IRI="#Mineral"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PlantingTemperature"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Product_name"/>
+        <Class IRI="#Mineral"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Variety_Name"/>
+        <Class IRI="#Crop"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Animal_Species_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Mineral_Source"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PlantingTemperature"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Product_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Temperature_Avg"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Variety_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
