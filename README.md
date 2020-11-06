@@ -8,7 +8,7 @@ UN GOAL N°2 : End hunger, achieve food security and improved nutrition and prom
 This project has been realised by: 
 
     - Syrine EL AOUD
-    - Saif Eddine BOUKHDHIR
+    - Saif Eddine BOUKHDHIR (https://github.com/saifeddineboukhdhir)
     - Houssem Eddine BETTAIBI
     
 **Ontology :**
